@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="style.css"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot</title>
+  </head>
+    <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="column left">
+          <span class="dot" style="background:#ED594A;"></span>
+          <span class="dot" style="background:#FDD800;"></span>
+          <span class="dot" style="background:#5AC05A;"></span>
+        </div>
+        <div class="column middle">
+          <input class="input"type="text" value="chatbot.com">
+        </div>
+        <div class="column right">
+          <div style="float:right">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="content">
+          <div id="chat" class="chat">
+            <div id="messages" class="messages">
+            </div>
+          </div>
+          <div class="form">
+            <input class="txtbox" type="text" id="searchUser" class="form-control" placeholder="type here to talk with me">
+        </div> 
+      </div>
+    </div>
+  </body>
+  <script src="fetch.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+  <script type="text/javascript" src="constants.js" ></script>
+</html>
