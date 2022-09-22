@@ -1,3 +1,5 @@
+https://bruno4012.github.io/WetherChatBot/
+
 # Project:
 The chatBot project is a group project which was assigned to the students in the Software Development 2 module from the second year of Computing science at Griffith College Dublin. The project has specific requirements and was with a duration of 10 weeks.
 ## Group participants:
